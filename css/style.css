@@ -1,0 +1,91 @@
+body {
+    background-color: #ffffff;
+}
+
+.navLinks {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .5px ;
+    color: #313131;
+    list-style: none;
+    display: inline-block;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #313131;
+    margin-right: 30px;
+   
+}
+.navLinks a {
+    transition: all 0.3s ease 0;
+}
+.navLinks a:hover {
+    color: #d63f48;
+}
+
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+}
+.social {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.logoNav {
+    cursor: pointer;
+    margin-right: -10px;
+    position: relative;
+    bottom: 6px;
+}
+
+#linkedinNav {
+    position: absolute;
+    right: 140px;
+    top: 48px;
+}
+
+
+#behanceNav {
+    position: absolute;
+    right: 70px;
+    top: 48px;
+}
+
+nav {
+    position: relative;
+    left: 25px
+}
+
+#hero {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.heroText h1 {
+    font-family:'Raleway', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.heroImage {
+    position: relative;
+    bottom: 270px;
+    right: 150px;
+}
+#heroImage {
+    width: 474;
+    height: 493;
+    float: right;
+}
