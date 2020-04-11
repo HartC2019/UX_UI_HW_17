@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header id="flexHeader">
+        <div class="flexChildNav">
+            <img class="logoNav" src="images/Nav_Logo_line.svg" alt="logo">
         
-        <img class="logoNav" src="images/Nav_Logo_line.svg" alt="logo">
-        <nav>
-            <ul>
-                <li class="navLinks" id="project"><a href="#">PROJECTS</a></li>
-                <li class="navLinks" id="about"><a href="#">ABOUT</a></li>
-                <li class="navLinks" id="resume"><a href="#">RESUME</a></li>
-            </ul>
-        </nav>
-        <div class="socialLinks">
+            <nav>
+                <ul id="flexTabs">
+                    <li class="navLinks" id="project"><a href="#">PROJECTS</a></li>
+                    <li class="navLinks" id="about"><a href="#">ABOUT</a></li>
+                    <li class="navLinks" id="resume"><a href="#">RESUME</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="socialLinks flexHeaderItem">
             <div id="linkedinNav">
                 <img class="social" src="images/045-linkedin.svg" alt="">
             </div>
@@ -29,17 +31,18 @@
         </div>
     </header>
 
-    <section >
-        <div id="hero" >
-            <div class="heroText">
+    <section>
+        <div id="flexHero" >
+            <div class="flexHeroItem1">
                 <h1>Hello I am Chase Hart <br><br>
-                UX/UI Designer based in <br> Atlanta, GA</h1>
-            </div>
-            <div class="button" id="aboutButton">
-                <a class="linkButtonAbout"href="#">About Me</a>
+                UX/UI Designer <br> based in Atlanta, GA</h1>
+
+                <div class="flexHeroItem button" id="aboutButton">
+                    <a class="linkButtonAbout"href="#">About Me</a>
+                </div>
             </div>
         
-            <div class="heroImage">
+            <div class="flexHeroItem2">
                 <img id="heroImage" src="images/Hero_image.svg" alt="animation">
             </div>
         </div>
