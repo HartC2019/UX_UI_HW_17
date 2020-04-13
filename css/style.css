@@ -157,16 +157,138 @@ nav {
 
 /* Featured Projects */ 
 
+#projects {
+    background-color:white;
+    height: 1800px;
+    margin: 25px;
+}
 
+#projectTitle h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
 
+hr.line1 {
+    border-color: #d63f48;
+    border-style: solid;
+    width: 902px;
+    height: 1.5px;
+    background-color: #d63f48;
+    border-radius: 50px;
+}
 
+/* Projects */ 
 
+#flexProject {
+    display: flex;
+    flex-direction: column;
 
+}
 
+.flexProjectItem {
+    background-color: white;
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
+.flexProjectItem {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
+ /* Project Photos */
 
+.projectPicture {
+    height: 60%;
+    border-radius: 20px;
+    margin: 25px;
+    margin-left: 100px;
+    margin-top: 55px;
+}
 
+ /* Text */
 
+#project1descrip {
+    width: 280px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
 
-/* About Page */
+#project2descrip {
+    width: 280px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#project3descrip {
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.projectText h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+ #Title3 {
+     width: 280px;
+     margin-left: 10px;
+ }
+
+ /* View Project Button */
+
+ #project1Button a {
+     text-decoration: none;
+     color: #313131;
+ }
+
+ #project1Button {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 35px;
+    border: 1px solid #FD5863;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Raleway', sans-serif; 
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px 50px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 15px;
+ }
+
+ #project1Button {
+    transition-duration: 0.4s;
+  }
+  
+  #project1Button:hover {
+    background-color: #ffffff;
+    color: #343434;
+    border: 3px solid #fd5863;
+  }
+
+  hr.line2 {
+    border-color: #d63f48;
+    border-style: solid;
+    width: 151px;
+    height: 1.5px;
+    background-color: #d63f48;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+/* About Page */    
+
