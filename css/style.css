@@ -98,6 +98,7 @@ nav {
     justify-content: space-evenly;
     margin: 25px;
     margin-top: -20px;
+    margin-bottom: 102px;
 }
 
 .flexHeroItem1 {
@@ -160,7 +161,7 @@ nav {
 
 #projects {
     background-color:#F4F4F4;
-    margin: 25px;
+    margin: -7px;
     min-height: 1425px;
     min-width: 973px;
 }
