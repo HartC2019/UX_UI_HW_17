@@ -160,9 +160,8 @@ nav {
 
 #projects {
     background-color:white;
-    height: 1800px;
     margin: 25px;
-    min-height: 1800px;
+    min-height: 1425px;
     min-width: 973px;
 }
 
@@ -170,7 +169,7 @@ nav {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 700;
     padding-top: 10px;
     margin-bottom: 0px;
 }
@@ -247,7 +246,7 @@ hr.line1 {
 .projectText h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
  #Title3 {
@@ -299,3 +298,96 @@ hr.line1 {
 
 /* About Page */    
 
+/* Footer */
+
+footer {
+    background-color: #1a2d35 ;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    margin-right: 60px;
+    width: fit-content;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+footer div {
+    margin: 0 auto;
+    width: 33.3%;
+    text-align: center;
+    color: #D6D6D6;
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    font-weight: 400;
+}
+
+footer div h4 {
+    font-size: 15px;
+    font-weight: 600px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.linkButtonEmail {
+    color: #D6D6D6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.linkButtonEmail {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 35px;
+    background-color: #d63f48;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Raleway', sans-serif; 
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 50px;
+ }
+
+ .linkButtonEmail {
+    transition-duration: 0.4s;
+ }
+
+ .linkButtonEmail:hover {
+    opacity: .8;
+ }
+
+
+footer div, h5 {
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+footer ul {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #D6D6D6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+footer ul a:hover {
+    transition-duration: 0.4s;
+    color: #d63f48;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
