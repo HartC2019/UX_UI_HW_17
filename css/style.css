@@ -159,7 +159,7 @@ nav {
 /* Featured Projects */ 
 
 #projects {
-    background-color:white;
+    background-color:#F4F4F4;
     margin: 25px;
     min-height: 1425px;
     min-width: 973px;
@@ -192,7 +192,7 @@ hr.line1 {
 }
 
 .flexProjectItem {
-    background-color: white;
+    background-color: #F4F4F4;
     height: 380px;
     margin-left: 20px;
     margin-right: 20px;
@@ -281,7 +281,7 @@ hr.line1 {
   }
   
   #project1Button:hover {
-    background-color: #ffffff;
+    background-color: #F4F4F4;
     color: #343434;
     border: 3px solid #fd5863;
   }
@@ -294,9 +294,7 @@ hr.line1 {
     background-color: #d63f48;
     border-radius: 50px;
     margin-top: 50px;
-}
-
-/* About Page */    
+}   
 
 /* Footer */
 
@@ -310,12 +308,16 @@ footer {
     justify-content: center;
 }
 
+/* Footer logo */
+
 footer img {
     margin-right: 60px;
     width: fit-content;
     margin-left: 50px;
     padding-bottom: 50px;
 }
+
+/* text div */
 
 footer div {
     margin: 0 auto;
@@ -332,6 +334,8 @@ footer div h4 {
     font-weight: 600px;
     font-family:'Open Sans', sans-serif;
 }
+
+/* buttons */
 
 .linkButtonEmail {
     color: #D6D6D6;
@@ -361,10 +365,15 @@ footer div h4 {
  }
 
 
+/* Footer small text */
+
 footer div, h5 {
     font-size: 12px;
     font-weight: 400px;
 }
+
+/* side links */
+
 
 footer ul {
     width: fit-content;
@@ -391,3 +400,4 @@ footer li {
     list-style: none;
     margin-bottom: 10px;
 }
+
