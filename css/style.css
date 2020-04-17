@@ -101,11 +101,6 @@ nav {
     margin-bottom: 102px;
 }
 
-.flexHeroItem1 {
-    width: 40%;
-    margin-right: -150px;
-}
-
 .flexHeroItem2 {
     width: 35%;
 }
@@ -162,7 +157,7 @@ nav {
 #projects {
     background-color:#F4F4F4;
     margin: -7px;
-    min-height: 1425px;
+    min-height: 1515px;
     min-width: 973px;
 }
 
@@ -215,11 +210,40 @@ hr.line1 {
  }
 
 .projectPicture {
-    height: 60%;
+    height: 220px;
     border-radius: 20px;
     margin-left: 100px;
     margin-top: 55px;
 }
+
+.tags {
+    font-family:'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 7px;
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+
+}
+
+.tags li {
+    list-style: none;
+    display: inline-block;
+    background-color: #325259;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#tag1 {
+   margin-right: 20px; 
+}
+
+#tag3 {
+    margin-right: -10px; 
+ }
+
 
  /* Text */
 
@@ -255,6 +279,25 @@ hr.line1 {
      margin-left: 10px;
  }
 
+ .flexProjectItem {
+     background-color: white;
+     box-shadow: 0px 10px 10px #00000029;
+     width: 825px;
+     margin: 0 auto;
+     margin-bottom: 45px;
+     border-radius: 20px;
+
+ }
+
+ #project1 {
+     margin-top: 25px;
+ }
+
+ #project3 {
+     height: 415px;
+    }
+
+
  /* View Project Button */
 
  #project1Button a {
@@ -282,7 +325,7 @@ hr.line1 {
   }
   
   #project1Button:hover {
-    background-color: #F4F4F4;
+    background-color: #ffffff;
     color: #343434;
     border: 3px solid #fd5863;
   }
@@ -402,3 +445,21 @@ footer li {
     margin-bottom: 10px;
 }
 
+/* Grid Hero */
+
+#hero {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+    "gridH1 gridH2";
+    margin-left: 175px;
+    ;
+}
+
+#flexHeroItem1 {
+    grid-area: "gridH1";
+}
+
+#flexHeroItem2 {
+    grid-area: "gridH2";
+}
